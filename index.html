@@ -3,106 +3,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Romela Togonon - Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background: #f4f4f9;
             color: #333;
-            line-height: 1.6;
         }
         header {
-            background: #333;
+            background: #4CAF50;
             color: #fff;
-            padding: 1rem 0;
+            padding: 20px 10px;
             text-align: center;
         }
-        header h1 {
+        header h1, header h2 {
             margin: 0;
         }
-        nav {
-            text-align: center;
-            margin: 1rem 0;
-        }
-        nav a {
-            margin: 0 1rem;
-            text-decoration: none;
-            color: #333;
-        }
-        nav a:hover {
-            color: #007BFF;
+        header img {
+            border-radius: 50%;
+            margin-top: 20px;
+            width: 150px;
+            height: 150px;
         }
         .container {
-            max-width: 1100px;
+            max-width: 1200px;
             margin: auto;
-            padding: 1rem;
+            padding: 20px;
         }
         .section {
-            margin: 2rem 0;
+            margin: 30px 0;
         }
-        .card {
-            background: #fff;
+        .section h2 {
+            color: #4CAF50;
+        }
+        .project {
             border: 1px solid #ddd;
             border-radius: 5px;
-            padding: 1rem;
-            margin: 1rem 0;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 15px;
+            margin-bottom: 20px;
+            background: #fff;
+        }
+        .project img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .project h3 {
+            margin-top: 0;
         }
         footer {
             text-align: center;
-            padding: 1rem 0;
+            padding: 20px;
             background: #333;
             color: #fff;
         }
-        footer p {
-            margin: 0;
+        .contact p, .contact a {
+            margin: 5px 0;
+        }
+        .contact a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Portfolio</h1>
-        <p>Showcasing my projects and skills</p>
-    </header>
 
-    <nav>
-        <a href="#about">About Me</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
-    </nav>
+<header>
+    <h1>WELCOME TO MY PORTFOLIO</h1>
+    <h2>Romela Togonon</h2>
+    <h3>System Analyst</h3>
+    <img src="https://via.placeholder.com/150" alt="Romela Togonon">
+    <p>Experienced System Analyst with a proven track record in managing and implementing applications using PowerApps and SharePoint, coupled with TOGAF certification. Seeking to leverage expertise to contribute to innovative IT initiatives and drive operational excellence.</p>
+</header>
 
-    <div class="container">
-        <section id="about" class="section">
-            <h2>About Me</h2>
-            <p>Hi! I'm [Your Name], a passionate professional exploring the world of [Your Field or Interest]. I love creating, learning, and collaborating to build amazing things!</p>
-        </section>
+<div class="container">
+    <section class="section">
+        <h2>PROJECTS IMPLEMENTED</h2>
 
-        <section id="projects" class="section">
-            <h2>Projects</h2>
-            <div class="card">
-                <h3>Project 1</h3>
-                <p>Description of your first project. You can include what it does and why it's awesome!</p>
-                <a href="#" target="_blank">View on GitHub</a>
-            </div>
-            <div class="card">
-                <h3>Project 2</h3>
-                <p>Description of your second project. Highlight key features and achievements!</p>
-                <a href="#" target="_blank">View on GitHub</a>
-            </div>
-        </section>
+        <div class="project">
+            <h3>Sky Fiber Top Up</h3>
+            <p>This system allows subscribers to choose quick speed top-ups via My SKY Website, offering variations such as 25Mbps/5 days, 50Mbps/5 days, etc.</p>
+            <img src="https://via.placeholder.com/500" alt="Sky Fiber Top Up">
+        </div>
 
-        <section id="contact" class="section">
-            <h2>Contact</h2>
-            <p>If you'd like to connect, feel free to reach out!</p>
-            <p>Email: yourname@example.com</p>
-            <p>GitHub: <a href="https://github.com/your-username" target="_blank">github.com/your-username</a></p>
-        </section>
-    </div>
+        <div class="project">
+            <h3>Salesforce</h3>
+            <p>Used for CRM to track subscribers' records, preferred plans, and monitor statuses from new installation to completion.</p>
+            <img src="https://via.placeholder.com/500" alt="Salesforce">
+        </div>
 
-    <footer>
-        <p>© 2024 [Your Name]. All rights reserved.</p>
-    </footer>
+        <div class="project">
+            <h3>RPA Robot UIPATH</h3>
+            <p>An automation process using UIPATH to encode subscriber records into Salesforce and ICMS.</p>
+            <img src="https://via.placeholder.com/500" alt="RPA Robot UIPATH">
+        </div>
+
+        <div class="project">
+            <h3>RPA Robot Power Automate</h3>
+            <p>An automation process using Power Automate to encode subscriber records into Salesforce and ICMS.</p>
+            <img src="https://via.placeholder.com/500" alt="RPA Robot Power Automate">
+        </div>
+
+        <div class="project">
+            <h3>SKY Referral</h3>
+            <p>Tracks referral applications and commissions for referrers.</p>
+            <img src="https://via.placeholder.com/500" alt="SKY Referral">
+        </div>
+
+        <div class="project">
+            <h3>ECCRF - Electronic Configuration Change Request Form</h3>
+            <p>SharePoint application for monitoring ECCRF forms requested by engineers.</p>
+            <img src="https://via.placeholder.com/500" alt="ECCRF">
+        </div>
+
+        <!-- Add more projects similarly -->
+
+        <div class="project">
+            <h3>ABS-CBN Sharepoint</h3>
+            <p>Applications developed for ABS-CBN Finance to manage requests related to billing, payments, and more.</p>
+            <img src="https://via.placeholder.com/500" alt="ABS-CBN Sharepoint">
+        </div>
+    </section>
+
+    <section class="section contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:rometogonon@gmail.com">rometogonon@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/romela-t-1556b291/" target="_blank">Romela Togonon</a></p>
+        <p>Mobile: 09303715041</p>
+    </section>
+</div>
+
+<footer>
+    <p>© 2024 Romela Togonon. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
