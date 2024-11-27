@@ -1,147 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Romela Togonon - Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background: #f4f4f9;
-            color: #333;
-        }
-        header {
-            background: #4CAF50;
-            color: #fff;
-            padding: 20px 10px;
-            text-align: center;
-        }
-        header h1, header h2 {
-            margin: 0;
-        }
-        header img {
-            border-radius: 50%;
-            margin-top: 20px;
-            width: 150px;
-            height: 150px;
-        }
-        .container {
-            max-width: 1200px;
-            margin: auto;
-            padding: 20px;
-        }
-        .section {
-            margin: 30px 0;
-        }
-        .section h2 {
-            color: #4CAF50;
-        }
-        .project {
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            padding: 15px;
-            margin-bottom: 20px;
-            background: #fff;
-        }
-        .project img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-        }
-        .project h3 {
-            margin-top: 0;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #333;
-            color: #fff;
-        }
-        .contact p, .contact a {
-            margin: 5px 0;
-        }
-        .contact a {
-            color: #4CAF50;
-            text-decoration: none;
-        }
-        .contact a:hover {
-            text-decoration: underline;
-        }
-    </style>
-</head>
-<body>
+# 👋 Hi there, I'm Ryan Roy!
 
-<header>
-    <h1>WELCOME TO MY PORTFOLIO</h1>
-    <h2>Romela Togonon</h2>
-    <h3>System Analyst</h3>
-    <img src="https://via.placeholder.com/150" alt="Romela Togonon">
-    <p>Experienced System Analyst with a proven track record in managing and implementing applications using PowerApps and SharePoint, coupled with TOGAF certification. Seeking to leverage expertise to contribute to innovative IT initiatives and drive operational excellence.</p>
-</header>
+## 💻 About Me
 
-<div class="container">
-    <section class="section">
-        <h2>PROJECTS IMPLEMENTED</h2>
+I'm a passionate PHP developer with extensive experience in building applications using the **CodeIgniter** and **Laravel** frameworks. I thrive on creating efficient, scalable, and maintainable code to deliver high-quality solutions.
 
-        <div class="project">
-            <h3>Sky Fiber Top Up</h3>
-            <p>This system allows subscribers to choose quick speed top-ups via My SKY Website, offering variations such as 25Mbps/5 days, 50Mbps/5 days, etc.</p>
-            <img src="https://via.placeholder.com/500" alt="Sky Fiber Top Up">
-        </div>
+## 🛠️ Technologies & Tools
 
-        <div class="project">
-            <h3>Salesforce</h3>
-            <p>Used for CRM to track subscribers' records, preferred plans, and monitor statuses from new installation to completion.</p>
-            <img src="https://via.placeholder.com/500" alt="Salesforce">
-        </div>
+- **Languages**:  
+  ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)  
+  ![Perl](https://img.shields.io/badge/Perl-0298C3?style=flat&logo=perl&logoColor=white)  
+  ![VB.NET](https://img.shields.io/badge/VB.NET-5C2D91?style=flat&logo=visualstudio&logoColor=white)
 
-        <div class="project">
-            <h3>RPA Robot UIPATH</h3>
-            <p>An automation process using UIPATH to encode subscriber records into Salesforce and ICMS.</p>
-            <img src="https://via.placeholder.com/500" alt="RPA Robot UIPATH">
-        </div>
+- **Frameworks**:  
+  ![Laravel](https://img.shields.io/badge/Laravel-E14427?style=flat&logo=laravel&logoColor=white)  
+  ![CodeIgniter](https://img.shields.io/badge/CodeIgniter-EF4223?style=flat&logo=codeigniter&logoColor=white)
 
-        <div class="project">
-            <h3>RPA Robot Power Automate</h3>
-            <p>An automation process using Power Automate to encode subscriber records into Salesforce and ICMS.</p>
-            <img src="https://via.placeholder.com/500" alt="RPA Robot Power Automate">
-        </div>
+- **Databases**:  
+  ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)  
+  ![MSSQL](https://img.shields.io/badge/Microsoft_SQL_Server-CC2927?style=flat&logo=microsoftsqlserver&logoColor=white)  
+  ![DB2](https://img.shields.io/badge/IBM_DB2-005EB8?style=flat&logo=ibmdb2&logoColor=white)
 
-        <div class="project">
-            <h3>SKY Referral</h3>
-            <p>Tracks referral applications and commissions for referrers.</p>
-            <img src="https://via.placeholder.com/500" alt="SKY Referral">
-        </div>
+- **Cloud & Automation**:  
+  ![AWS](https://img.shields.io/badge/Amazon_AWS-232F3E?style=flat&logo=amazonaws&logoColor=white)  
+  ![PowerApps](https://img.shields.io/badge/Microsoft_PowerApps-2B5D9E?style=flat&logo=microsoftpowerapps&logoColor=white)  
+  ![Power Automate](https://img.shields.io/badge/Microsoft_Power_Automate-0078D4?style=flat&logo=microsoftpowerautomate&logoColor=white)
 
-        <div class="project">
-            <h3>ECCRF - Electronic Configuration Change Request Form</h3>
-            <p>SharePoint application for monitoring ECCRF forms requested by engineers.</p>
-            <img src="https://via.placeholder.com/500" alt="ECCRF">
-        </div>
+## 🌱 Currently Learning
 
-        <!-- Add more projects similarly -->
+I'm always eager to learn and improve my skills. Currently, I am exploring more advanced features of **Laravel** and cloud services.
 
-        <div class="project">
-            <h3>ABS-CBN Sharepoint</h3>
-            <p>Applications developed for ABS-CBN Finance to manage requests related to billing, payments, and more.</p>
-            <img src="https://via.placeholder.com/500" alt="ABS-CBN Sharepoint">
-        </div>
-    </section>
+## 📫 How to Reach Me
 
-    <section class="section contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:rometogonon@gmail.com">rometogonon@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/romela-t-1556b291/" target="_blank">Romela Togonon</a></p>
-        <p>Mobile: 09303715041</p>
-    </section>
-</div>
+Feel free to connect with me on:
 
-<footer>
-    <p>© 2024 Romela Togonon. All Rights Reserved.</p>
-</footer>
+- [LinkedIn]([https://www.linkedin.com/in/yourprofile](https://www.linkedin.com/in/ryan-santos-5b747917a/)) 
 
-</body>
-</html>
+Thanks for visiting my profile! 🚀
