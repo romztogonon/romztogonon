@@ -1,147 +1,511 @@
-<!DOCTYPE html>
+<!-- /*
+* Template Name: Minimal
+* Template Author: Untree.co
+* Author URI: https://untree.co/
+* License: https://creativecommons.org/licenses/by/3.0/
+*/ -->
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Romela Togonon - Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background: #f4f4f9;
-            color: #333;
-        }
-        header {
-            background: #4CAF50;
-            color: #fff;
-            padding: 20px 10px;
-            text-align: center;
-        }
-        header h1, header h2 {
-            margin: 0;
-        }
-        header img {
-            border-radius: 50%;
-            margin-top: 20px;
-            width: 150px;
-            height: 150px;
-        }
-        .container {
-            max-width: 1200px;
-            margin: auto;
-            padding: 20px;
-        }
-        .section {
-            margin: 30px 0;
-        }
-        .section h2 {
-            color: #4CAF50;
-        }
-        .project {
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            padding: 15px;
-            margin-bottom: 20px;
-            background: #fff;
-        }
-        .project img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 5px;
-        }
-        .project h3 {
-            margin-top: 0;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #333;
-            color: #fff;
-        }
-        .contact p, .contact a {
-            margin: 5px 0;
-        }
-        .contact a {
-            color: #4CAF50;
-            text-decoration: none;
-        }
-        .contact a:hover {
-            text-decoration: underline;
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="author" content="Untree.co">
+  <link rel="shortcut icon" href="favicon.png">
+
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Mono&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <title>ROMELA TOGONON - PORTFOLIO</title>
 </head>
-<body>
 
-<header>
-    <h1>WELCOME TO MY PORTFOLIO</h1>
-    <h2>Romela Togonon</h2>
-    <h3>System Analyst</h3>
-    <img src="https://via.placeholder.com/150" alt="Romela Togonon">
-    <p>Experienced System Analyst with a proven track record in managing and implementing applications using PowerApps and SharePoint, coupled with TOGAF certification. Seeking to leverage expertise to contribute to innovative IT initiatives and drive operational excellence.</p>
-</header>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="100">
 
-<div class="container">
-    <section class="section">
-        <h2>PROJECTS IMPLEMENTED</h2>
+  <div class="lines-wrap">
+    <div class="lines-inner">
+      <div class="lines"></div>
+    </div>
+  </div>
+  <!-- END lines -->
 
-        <div class="project">
-            <h3>Sky Fiber Top Up</h3>
-            <p>This system allows subscribers to choose quick speed top-ups via My SKY Website, offering variations such as 25Mbps/5 days, 50Mbps/5 days, etc.</p>
-            <img src="https://via.placeholder.com/500" alt="Sky Fiber Top Up">
+  <div class="site-mobile-menu site-navbar-target">
+    <div class="site-mobile-menu-header">
+      <div class="site-mobile-menu-close">
+        <span class="icofont-close js-menu-toggle"></span>
+      </div>
+    </div>
+    <div class="site-mobile-menu-body"></div>
+  </div>
+  
+  <nav class="site-nav dark mb-5 site-navbar-target">
+    <div class="container">
+      <div class="site-navigation">
+        <a href="index.html" class="logo m-0">ROMELA TOGONON<span class="text-primary">.</span>SYSTEM ANALYST</a>
+
+        <ul class="js-clone-nav d-none d-lg-inline-none site-menu float-right site-nav-wrap">
+          <li><a href="#home-section" class="nav-link active">Home</a></li>
+          <li><a href="#portfolio-section" class="nav-link">Portfolio</a></li>
+          <li class="has-children">
+            <a href="#about-section" class="nav-link">About</a>
+            <ul class="dropdown">
+              <li><a href="elements.html" class="nav-link">Elements</a></li>
+              <li class="has-children">
+                <a href="#">Menu Two</a>
+                <ul class="dropdown">
+                  <li><a href="#" class="nav-link">Sub Menu One</a></li>
+                  <li><a href="#" class="nav-link">Sub Menu Two</a></li>
+                  <li><a href="#" class="nav-link">Sub Menu Three</a></li>
+                </ul>
+              </li>
+              <li><a href="#" class="nav-link">Menu Three</a></li>
+            </ul>
+          </li>
+          <li><a href="#services-section" class="nav-link">Services</a></li>
+
+          <li><a href="#contact-section" class="nav-link">Contact us</a></li>
+        </ul>
+
+        <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-inline-block" data-toggle="collapse" data-target="#main-navbar">
+          <span></span>
+        </a>
+
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="untree_co-section pb-0" id="home-section">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-md-7">
+          <h1 class="heading gsap-reveal-hero mb-3"><strong>ROMELA TOGONON<span class="text-primary">.</span>Portfolio</strong></h1>
+          <h2 class="subheading gsap-reveal-hero mb-4">
+            Experienced System Analyst with a proven track record in managing and implementing applications using PowerApps and SharePoint, coupled with TOGAF certification. Adept at collaborating with cross-functional teams, streamlining business processes, and delivering solutions that align with organizational goals. Seeking to leverage expertise in system analysis and project management to contribute to innovative IT initiatives and drive operational excellence things.
+          </h2>
+             
+        </div>
+      </div>
+      
+    </div>
+  </div>
+
+
+  <div class="untree_co-section untree_co-section-4 pb-0"  id="portfolio-section">
+    <div class="container">
+
+
+      <div class="relative"><div class="loader-portfolio-wrap"><div class="loader-portfolio"></div></div> </div>
+      <div id="portfolio-single-holder"></div>
+
+      <div class="portfolio-wrapper">
+
+        <div id="posts" class="row">
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-online-application-sky.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>ORMS - SKY Online Application</h3>
+                  <p>This is a system where subscribers input their details and select their plans.</p>
+                </div>
+              </div>
+              <img src="projects/online_application_sky/online_application_enter_address_1.png" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-skyrefresh.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="2">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Salesforce</h3>
+                  <p>A CRM to track records of sbscribers and plans they prefer and monitor the status from New install to Completion</p>
+                </div>
+              </div>
+              <img src="projects\salesforce\salesforce_1.PNG" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-kyla.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>RPA Robot UIPATH</h3>
+                  <p>An automation process made through UIPATH to encode automatically the records of subscribers to Salesforce and ICMS.</p>
+                </div>
+              </div>
+              <img src="projects\bot_uipath\bot_uipath_1.PNG" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-online-vod.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>RPA Robot Power Automate</h3>
+                  <p>An automation process made through Power Automate to encode automatically the records of subscribers to Salesforce and ICMS.</p>
+                </div>
+              </div>
+              <img src="projects\bot_powerautomate\bot_powerautomate_1.PNG"" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-ebill.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>ECCRF - Electronic Configuration Change Request Form</h3>
+                  <p>A sharepoint application where ECCRF forms requested by Engineers are monitored with reports.</p>
+                </div>
+              </div>
+              <img src="projects\eccrf\eccrf_1.png" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-keycloak.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="1">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Gelato</h3>
+                  <p>Admin Management, Login Integration</p>
+                </div>
+              </div>
+              <img src="projects\keycloak_mysky\keycloak_1.PNG" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-viu.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="2">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Epsilon - Credit Card Page</h3>
+                  <p>API, Microsite</p>
+                </div>
+              </div>
+              <img src="projects\viu\viu_1.png" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-contact-update.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Contact Update</h3>
+                  <p>web, api</p>
+                </div>
+              </div>
+              <img src="projects\contact_update\contact_update_3.PNG" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-skyreact.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Skyreact API</h3>
+                  <p>SMS, API</p>
+                </div>
+              </div>
+              <img src="projects\skyreact\skyreact_1.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-skyfiber_topup.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Skyfiber Alternet Topup</h3>
+                  <p>WEB APP, API</p>
+                </div>
+              </div>
+              <img src="projects\skyfiber_topup\skyfiber_topup_1.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div> 
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-refer.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Skyreferral</h3>
+                  <p>WEB APP</p>
+                </div>
+              </div>
+              <img src="projects\sky_referral\refer_1.jpg" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div>
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-refund.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Sky Cable Refund </h3>
+                  <p>WEB APP</p><p>CRON</p><p>API</p>
+                </div>
+              </div>
+              <img src="projects\skyrefund_cable\refund_1.JPG" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div> 
+          <div class="item web branding col-sm-6 col-md-6 col-lg-4 isotope-mb-2">
+            <a href="portfolio-single-ocf.html" class="portfolio-item ajax-load-page isotope-item gsap-reveal-img" data-id="3">
+              <div class="overlay">
+                <span class="wrap-icon icon-link2"></span>
+                <div class="portfolio-item-content">
+                  <h3>Online Clearance Form </h3>
+                  <p>Powerapps , Power Automate</p>
+                </div>
+              </div>
+              <img src="projects\ocf\ocf_4.png" class="lazyload  img-fluid" alt="Images" />
+            </a>
+          </div> 
+
+        </div>
+      </div>
+
+
+        <!-- </div>
+        </div> -->
+      </div>
+    </div>
+
+
+    <div class="untree_co-section pb-0" id="about-section">
+      <div class="container">
+        <div class="row justify-content-center mb-3">
+          <div class="col-lg-7 mx-auto text-center author-wrap">
+            <img src="images/profile.jpg" alt="Image" class="img-fluid rounded-circle mb-3" style="height:200px;width: auto;">
+            <h3 class="text-black h5 font-weight-bold mb-2 gsap-reveal-hero">Ryan Roy Santos</h3>
+            <p class="gsap-reveal-hero">System Analyst</p>
+          </div>
         </div>
 
-        <div class="project">
-            <h3>Salesforce</h3>
-            <p>Used for CRM to track subscribers' records, preferred plans, and monitor statuses from new installation to completion.</p>
-            <img src="https://via.placeholder.com/500" alt="Salesforce">
+        <div class="row justify-content-center">
+          <div class="col-lg-7">
+
+
+            <p class="gsap-reveal-hero">TOGAF-certified System Analyst with expertise in business process optimization, PowerApps and SharePoint solution management, and AI-powered process automation. Passionate about leveraging technology to streamline operations, enhance collaboration, and deliver innovative solutions. Seeking to contribute analytical and technical expertise to drive organizational success.
+
+
+              
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="untree_co-section pb-0" id="services-section">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-7 text-center mx-auto">
+            <h2 class="section-heading gsap-reveal-hero mb-0"><strong>Services</strong></h2>
+            <p class="gsap-reveal-hero">Specialize.</p>
+            <div class="wave gsap-reveal-hero" >
+              <svg>
+                <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
+              </svg>
+            </div>
+          </div>
         </div>
 
-        <div class="project">
-            <h3>RPA Robot UIPATH</h3>
-            <p>An automation process using UIPATH to encode subscriber records into Salesforce and ICMS.</p>
-            <img src="https://via.placeholder.com/500" alt="RPA Robot UIPATH">
+        <div class="row">
+
+
+          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
+            <div class="service text-center">
+              <div class="gsap-reveal-hero mb-3">
+                <span class="icon-service"><img src="images/svg/service-icon-1.svg" alt="Image" class="img-fluid"></span>
+              </div>
+              <h3 class="gsap-reveal-hero">DESIGN PROCESS</h3>
+              <p class="gsap-reveal-hero">As a System Analyst, I excel in crafting system designs that bridge business needs with technological solutions. My approach involves collaborating closely with stakeholders to understand their requirements and translating them into intuitive system workflows. With expertise in PowerApps and SharePoint, I contribute to designing and implementing user-centric applications that enhance productivity and efficiency. I focus on creating scalable, future-ready designs that align with organizational goals and industry standards.</p>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
+            <div class="service text-center">
+              <div class="gsap-reveal-hero mb-3">
+                <span class="icon-service"><img src="images/svg/service-icon-8.svg" alt="Image" class="img-fluid"></span>
+              </div>
+              <h3 class="gsap-reveal-hero">ANALYZATION AND METHODOLOGIES</h3>
+              <p class="gsap-reveal-hero">Analyzing business processes is at the core of my role, where I identify inefficiencies and recommend actionable improvements. Utilizing methodologies such as Agile, I work with cross-functional teams to ensure that system solutions meet the needs of diverse stakeholders. My skills in data analysis and process optimization allow me to develop strategies that streamline workflows and improve overall operational performance. I am also passionate about leveraging AI-powered tools to introduce intelligent automation into processes, ensuring continuous innovation.</p>
+            </div>
+          </div>
+          
+          <div class="col-6 col-sm-6 col-md-6 col-lg-4 mb-4">
+            <div class="service text-center">
+              <div class="gsap-reveal-hero mb-3">
+                <span class="icon-service"><img src="images/svg/service-icon-5.svg" alt="Image" class="img-fluid"></span>
+              </div>
+              <h3 class="gsap-reveal-hero">DOCUMENTATION</h3>
+              <p class="gsap-reveal-hero">Detailed documentation is a vital part of my work, ensuring transparency and continuity across projects. From technical specifications to user manuals, I create comprehensive and precise documents that serve as a reliable resource for developers, stakeholders, and end-users. By maintaining clear and organized records, I facilitate seamless communication, effective troubleshooting, and long-term system sustainability. My ability to translate complex technical concepts into accessible documentation ensures all project participants remain aligned throughout the lifecycle of a system.</p>
+            </div>
+          </div>
+
         </div>
+      </div>
+    </div>
 
-        <div class="project">
-            <h3>RPA Robot Power Automate</h3>
-            <p>An automation process using Power Automate to encode subscriber records into Salesforce and ICMS.</p>
-            <img src="https://via.placeholder.com/500" alt="RPA Robot Power Automate">
+
+    <div class="untree_co-section pb-0">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-lg-7 text-center mx-auto">
+            <h2 class="section-heading gsap-reveal-hero mb-0"><strong>My Skillset</strong></h2>
+            <p class="gsap-reveal-hero">Percentage base of skillset</p>
+            <div class="wave gsap-reveal-hero" >
+              <svg>
+                <path d="M10,10 L50,100 L90,50" stroke="#0389ff"></path>
+              </svg>
+            </div>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="0">
+            <div class="progressbar" data-animate="false">
+              <div class="circle" data-percent="90">
+                <div class="number"></div>
+                <p class="caption">System Design and Implementation</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="100">
+            <div class="progressbar" data-animate="false">
+              <div class="circle" data-percent="95">
+                <div class="number"></div>
+                <p class="caption">Technical Documentation and Requirements Gathering</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="200">
+            <div class="progressbar" data-animate="false">
+              <div class="circle" data-percent="85">
+                <div class="number"></div>
+                <p class="caption">Stakeholder Collaboration and Communication</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="300">
+            <div class="progressbar" data-animate="false">
+              <div class="circle" data-percent="80">
+                <div class="number"></div>
+                <p class="caption">Agile Project Management and Team Coordination</p>
+              </div>
+            </div>
 
-        <div class="project">
-            <h3>SKY Referral</h3>
-            <p>Tracks referral applications and commissions for referrers.</p>
-            <img src="https://via.placeholder.com/500" alt="SKY Referral">
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="300">
+            <div class="progressbar" data-animate="false">
+              <div class="circle" data-percent="90">
+                <div class="number"></div>
+                <p class="caption">Process Automation and Workflow Optimization</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="300">
+            <div class="progressbar" data-animate="false">
+              <div class="circle" data-percent="80">
+                <div class="number"></div>
+                <p class="caption">Business Process Analysis and Optimization</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="300">
+            <div class="progressbar" data-animate="false">
+              <div class="circle" data-percent="85">
+                <div class="number"></div>
+                <p class="caption">Leveraging AI Tools for Insights and Efficiency</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-6 col-sm-6 col-md-6 col-lg-3 text-center" data-aos="fade-up" data-aos-delay="300">
+            <div class="progressbar" data-animate="false">
+              <div class="circle" data-percent="85">
+                <div class="number"></div>
+                <p class="caption">Cloud-Based System Implementation</p>
+              </div>
+            </div>
+
+          </div>
         </div>
+      </div>
+    </div>
 
-        <div class="project">
-            <h3>ECCRF - Electronic Configuration Change Request Form</h3>
-            <p>SharePoint application for monitoring ECCRF forms requested by engineers.</p>
-            <img src="https://via.placeholder.com/500" alt="ECCRF">
+  <div class="untree_co-section pb-0" id="contact-section">
+    <div class="container">
+      <div class="row justify-content-center text-center">
+        <div class="col-md-7">
+          <h1 class="heading gsap-reveal-hero mb-3">Contact Me</h1>
+          <h2 class="subheading gsap-reveal-hero mb-4">
+          <a href="mailto:rometogonon@gmail.com?subject=Join Our Team">rometogonon@gmail.com</a>
+
+          or 
+
+          <a href="https://www.linkedin.com/in/romela-t-1556b291/">LinkedIn</a>
+          </h2>
+             
         </div>
-
-        <!-- Add more projects similarly -->
-
-        <div class="project">
-            <h3>ABS-CBN Sharepoint</h3>
-            <p>Applications developed for ABS-CBN Finance to manage requests related to billing, payments, and more.</p>
-            <img src="https://via.placeholder.com/500" alt="ABS-CBN Sharepoint">
-        </div>
-    </section>
-
-    <section class="section contact">
-        <h2>Contact Me</h2>
-        <p>Email: <a href="mailto:rometogonon@gmail.com">rometogonon@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/romela-t-1556b291/" target="_blank">Romela Togonon</a></p>
-        <p>Mobile: 09303715041</p>
-    </section>
+      </div>
+      
+    </div>
+  </div>
+  <div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+    
+      <span class="text-muted">&copy; Romela Togonon Portfolio 2024</span>
+    </div>
+  </footer>
 </div>
 
-<footer>
-    <p>© 2024 Romela Togonon. All Rights Reserved.</p>
-</footer>
+    <div id="overlayer"></div>
+    <div class="loader">
+      <div class="spinner-border" role="status">
+        <span class="sr-only">Loading...</span>
+      </div>
+    </div>
 
-</body>
-</html>
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.animateNumber.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/wave-animate.js"></script>
+    <script src="js/circle-progress.js"></script>
+    <script src="js/imagesloaded.pkgd.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/TweenMax.min.js"></script>
+    <script src="js/ScrollMagic.min.js"></script>
+    <script src="js/scrollmagic.animation.gsap.min.js"></script>
+
+
+    <script src="js/custom.js"></script>
+    
+  </body>
+
+  </html>
